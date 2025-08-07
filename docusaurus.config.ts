@@ -153,11 +153,13 @@ const config: Config = {
                     className: 'header-download-link'
                 },
                 {
+                    label: 'GitHub'
                     href: 'https://github.com/GeyserMC/Geyser',
                     position: 'right',
                     className: 'header-github-link'
                 },
                 {
+                    label: 'Discord'
                     href: 'https://discord.gg/geysermc',
                     position: 'right',
                     className: 'header-discord-link'

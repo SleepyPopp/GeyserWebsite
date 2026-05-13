@@ -820,5 +820,50 @@
   "theme.contentVisibility.draftBanner.message": {
     "message": "This page is a draft. It will only be visible in dev and be excluded from the production build.",
     "description": "The draft content banner message"
+  },
+  "providers.provider.arth_hosting.description": {
+    "message": "Geyser is installed and configured on all servers by default. You can disable it in the 'Manage Plugins' menu."
+  },
+  "providers.provider.mcserverhost.description": {
+    "message": "Under the server configuration, select 'Crossplay' to automatically install Geyser and Floodgate. Join with the connection address. To update Geyser and Floodgate, replace the plugin jars in the server manager and restart the server."
+  },
+  "providers.provider.vemox_hosting.description": {
+    "message": "Full automatic installation. Go to one of the panel options and select the option to enable GeyserMC. Then, restart and connect to your server using your Java IP and port."
+  },
+  "providers.provider.mcforfree.de.description": {
+    "message": "Create an extra port in the game panel, then change the `port` in the `bedrock` section to the newly created port. To connect on Bedrock edition, use the Java server's IP and the port you've created. It may take a few minutes for the port to become active."
+  },
+  "providers.provider.modrinth.description": {
+    "message": "Check [Modrinth's documentation](https://support.modrinth.com/en/articles/10986613-adding-geyser-to-your-server) for specific instructions."
+  },
+  "providers.provider.orionnodes.description": {
+    "message": "Open a port yourself from the network page in the game panel, use that port in the bedrock section of the Geyser config."
+  },
+  "providers.provider.papernodes.description": {
+    "message": "Enable clone-remote-port (or manually set the Bedrock port to the Java port), and connect with the Java IP and port. Alternatively, you can contact the host to request an additional port or a dedicated IP."
+  },
+  "providers.provider.wepwawet.description": {
+    "message": "Add a new port in the Network tab. Use this new port as the bedrock port."
+  },
+  "pages.download.description.offhandextension": {
+    "message": "An extension that allows Bedrock players to switch their offhand and mainhand item by emoting."
+  },
+  "pages.download.description.rainbow": {
+    "message": "A Minecraft mod to generate Geyser item mappings and bedrock resourcepacks for use with Geyser's custom item API (v2)."
+  },
+  "pages.download.description.hydraulic": {
+    "message": "A companion mod to Geyser which allows for Bedrock players to join modded Minecraft: Java Edition servers."
+  },
+  "pages.download.description.thunder": {
+    "message": "A java application to convert simple Java Edition resource packs to Bedrock Edition ones."
+  },
+  "pages.dumpviewer.extensions": {
+    "message": "Extensions"
+  },
+  "pages.dumpviewer.extensions.noextensions": {
+    "message": "No extensions to show."
+  },
+  "pages.dumpviewer.extensions.helptext": {
+    "message": "Click on an extension to view more information."
   }
 }

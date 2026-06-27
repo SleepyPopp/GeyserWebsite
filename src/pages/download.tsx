@@ -70,6 +70,23 @@ const DownloadPage: React.FC = () => (
             <TabItem value="other-projects" label="Other Projects">
                 <Collapsibles>
                     <Collapsible
+                        title='Floodgate Databases'
+                        subtitle={<Translate id='pages.download.description.floodgatedatabases'>Database extension jars for Floodgate local linking.</Translate>}
+                        id='floodgate-db'
+                        inner={
+                            <ProjectDownload
+                                projectId="floodgate-db"
+                                setup='/wiki/floodgate/linking/#local-linking'
+                                downloadsInfo={{
+                                    mongo: <><FontAwesomeIcon icon={faFileZipper} /> Mongo</>,
+                                    mysql: <><FontAwesomeIcon icon={faFileZipper} /> MySQL</>,
+                                    sqlite: <><FontAwesomeIcon icon={faFileZipper} /> SQLite</>,
+                                }}
+                                gridColumns={1}
+                            />
+                        }
+                    />
+                    <Collapsible
                         title='ThirdPartyCosmetics'
                         subtitle={<Translate id='pages.download.description.thirdpartycosmetics'>An extension that adds support for loading ears and other third party cosmetics on java players</Translate>}
                         id='thirdpartycosmetics'

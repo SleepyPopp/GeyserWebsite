@@ -72,13 +72,13 @@ const DownloadPage: React.FC = () => (
                     <Collapsible
                         title='Floodgate Databases'
                         subtitle={<Translate id='pages.download.description.floodgatedatabases'>Database extension jars for Floodgate local linking.</Translate>}
-                        id='floodgate-db'
+                        id='floodgatedb'
                         inner={
                             <ProjectDownload
-                                projectId="floodgate-db"
+                                projectId="floodgatedb"
                                 setup='/wiki/floodgate/linking/#local-linking'
                                 downloadsInfo={{
-                                    mongo: <><FontAwesomeIcon icon={faFileZipper} /> Mongo</>,
+                                    mongodb: <><FontAwesomeIcon icon={faFileZipper} /> MongoDB</>,
                                     mysql: <><FontAwesomeIcon icon={faFileZipper} /> MySQL</>,
                                     sqlite: <><FontAwesomeIcon icon={faFileZipper} /> SQLite</>,
                                 }}
